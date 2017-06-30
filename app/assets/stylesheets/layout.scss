@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+@media screen {
+  html,
+  body {
+    height: 100%;
+    overflow-x: hidden;
+    max-height: 100%;
+  }
+}
+
+html {
+  background-image: -webkit-linear-gradient(top, #d7d2cc, #304352);
+  background-image: linear-gradient(to bottom, #d7d2cc, #304352);
+  background-color: #d7d2cc;
+}
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+}
+
+body{
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  text-align: center;
+  margin: 0;
+  min-width: 320px;
+  background: 0 0;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+#logo {
+  display: inline;
+  margin-top: 40px;
+}
+
+.m-t {
+  margin-top: 15px;
+}
