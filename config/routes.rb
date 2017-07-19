@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  root 'pages#index'
+  mount_ember_app :frontend, to: '/'
+
+  scope '/api/v1' do
+
+  end
 end
