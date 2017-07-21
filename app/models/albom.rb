@@ -1,0 +1,2 @@
+class Albom < ApplicationRecord
+end
