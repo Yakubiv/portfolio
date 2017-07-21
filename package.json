@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "postinstall": "sh bin/heroku_install"
+    "postinstall": "./bin/heroku_install"
   },
-  "dependencies": {
+  "devDependencies": {
     "bower": "*"
   },
   "cacheDirectories": [
